@@ -4,6 +4,7 @@
   "description": "holistic charity",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm run start --prefix client",
     "server": "NODE_ENV=development nodemon index.js",
