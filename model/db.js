@@ -1,10 +1,10 @@
 require("dotenv").config()
 const mysql = require("mysql2")
 const pool = mysql.createPool({
-  host:"0.0.0.0",
-  user:"root",
-  database:"holistic",
-  password:"root",
+  host:"sql6.freesqldatabase.com",
+  user:"sql6589079",
+  database:"sql6589079",
+  password:"s3KiIni56q",
 })
 
 pool.on('error', function(err) {
